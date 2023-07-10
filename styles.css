@@ -1,0 +1,67 @@
+/* Repeated style section */
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+/* Header style. */
+.header {
+  display: flex;
+  background-color: #e554731a;
+}
+.header-title {
+  margin: 197px 97px 32px 240px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  width: 708px;
+}
+
+.header-img {
+  width: 635px;
+  height: 800px;
+  margin: 50px 240px 0px 1045px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  margin: 240px;
+}
+.header-details {
+  color: #27272799;
+  width: 634px;
+  font-size: 18px;
+}
+/* Instagram Section */
+.instagram-img {
+  dispaly: flex;
+  flex-direction: row;
+}
+
+/* Footer Section style */
+.flowershop-title {
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.flowershop>span {
+    width: 100vh;
+    height: 4867px;
+    background: #FFF;
+
+}
+.flowershop-details {
+
+}
+

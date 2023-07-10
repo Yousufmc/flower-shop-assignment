@@ -1,0 +1,25 @@
+/* Repeated style section */
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-primary {
+}
+
+.header-img {
+  width: 80vh;
+  height: 80vh;
+}
+/* .header-container{
+    display: flex;
+} */
+.header {
+  display: flex;
+  width: 1920px;
+  height: 850px;
+  
+
+  /* background-color: #e554731a; */
+}
