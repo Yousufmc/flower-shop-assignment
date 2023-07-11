@@ -23,13 +23,12 @@ h2 {
   font-size: 55px;
 }
 
-
 .paragraph-details {
-    font-size: 15px;
-    line-height: 1.5;
-    color: rgba(39, 39, 39, 0.6);
-    margin: 10px 0 15px 0;
-  }
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 10px 0 15px 0;
+}
 .center {
   text-align: center;
 }
@@ -60,7 +59,6 @@ h2 {
   height: 800px;
 }
 
-
 .header-details {
   width: 734px;
   font-size: 18px;
@@ -71,26 +69,37 @@ h2 {
   width: 177px;
   height: 64px;
   padding: 12px 20px;
-  
 }
 
 /* (Bonous) Our featured flower style */
- 
+
 .our-container-info {
   text-align: center;
   margin-top: 70px;
 }
-.our-img {
+.our-images {
   width: 464px;
   height: 538px;
-}
-.our-images {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   text-align: center;
+  border-radius: 300px 300px 0px 0px;
+  gap: 20px;
 }
-
+.our-pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background: rgba(167, 33, 98, 0.15);
+}
+.our-blue {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background: rgba(5, 151, 160, 0.15);
+}
+.our-green {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
 /* <Hot deal style*/
 .deal {
   width: 100%;
@@ -107,9 +116,6 @@ h2 {
 }
 
 /* Instagram Section */
-
-
-
 
 .instagram-img {
   display: flex;
@@ -128,7 +134,7 @@ h2 {
 .get-container {
   width: 80%;
   height: 449px;
- background-color: red;
+  background-color: red;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,9 +145,8 @@ h2 {
   margin: auto;
   margin-top: 150px;
   margin-bottom: 150px;
-  background-image: url('./flower asset/Rectangle\ 9.png');
+  background-image: url("./flower asset/Rectangle\ 9.png");
 }
-
 
 /* Footer Section style */
 .flowershop {
@@ -166,7 +171,7 @@ h2 {
   color: #e55473;
 }
 .flowershop-details {
-  color:#fff
+  color: #fff;
 }
 .flowershop {
   color: white;
