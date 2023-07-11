@@ -1,17 +1,37 @@
 /* Repeated style section */
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #e55473;
+  transition: background-color 0.2s linear;
+}
+
+.btn-primary:hover {
+  background-color: #f2395e;
+}
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
 }
+h2 {
+  font-size: 55px;
+}
 
-.btn-primary {
-  border-radius: 8px;
-  background: #e55473;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 700;
-  
+
+.paragraph-details {
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(39, 39, 39, 0.6);
+    margin: 10px 0 15px 0;
+  }
+.center {
+  text-align: center;
 }
 /* Header style. */
 .header {
@@ -28,7 +48,7 @@
   text-align: left;
 }
 .header-title {
-  /* margin: 197px 97px 32px 240px; */
+  line-height: 1.2;
   color: #272727;
   font-size: 80px;
   font-weight: 800;
@@ -39,14 +59,11 @@
   width: 635px;
   height: 800px;
 }
-/* margin: 50px 240px 0px 1045px;
-} */
+
 
 .header-details {
-  color: #27272799;
   width: 734px;
   font-size: 18px;
-  font-weight: 400;
   margin-top: 30px;
 }
 .shop-now {
@@ -58,8 +75,10 @@
 }
 
 /* (Bonous) Our featured flower style */
+ 
 .our-container-info {
   text-align: center;
+  margin-top: 70px;
 }
 .our-img {
   width: 464px;
@@ -88,11 +107,10 @@
 }
 
 /* Instagram Section */
-.instagram {
-}
-.instagram-details {
-  text-align: center;
-}
+
+
+
+
 .instagram-img {
   display: flex;
   justify-content: space-around;
@@ -110,7 +128,7 @@
 .get-container {
   width: 80%;
   height: 449px;
-  background-image: url("./flower Asset/Rectangle\ 9.png");
+ background-color: red;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,9 +139,9 @@
   margin: auto;
   margin-top: 150px;
   margin-bottom: 150px;
+  background-image: url('./flower asset/Rectangle\ 9.png');
 }
-.get-info {
-}
+
 
 /* Footer Section style */
 .flowershop {
@@ -148,4 +166,8 @@
   color: #e55473;
 }
 .flowershop-details {
+  color:#fff
+}
+.flowershop {
+  color: white;
 }
