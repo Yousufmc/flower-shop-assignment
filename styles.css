@@ -128,7 +128,7 @@ h2 {
 
 /* Instagram Section */
 .instagram-details {
-  border-top: 40px;
+  margin-top: 40px;
 }
 
 .instagram-img {
@@ -212,7 +212,7 @@ margin-bottom: 20px;
   font-weight: 800;
   height: 58px;
  
-  /* margin: 128px 832px 24px 831px; */
+  
 }
 .flowershop-title > span {
   color: #e55473;
