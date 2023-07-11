@@ -40,28 +40,63 @@
   width: 634px;
   font-size: 18px;
 }
+
+
+/* (Bonous) Our featured flower style */
+
+
+
+
+/* <Hot deal style*/
+.deal {
+  width: 1922px;
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+
+}
+.deal-img{
+  width: 318px;
+height: 420px;
+}
+
+
+
+
 /* Instagram Section */
 .instagram-img {
   dispaly: flex;
   flex-direction: row;
 }
 
-/* Footer Section style */
-.flowershop-title {
-    color: #E55473;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+/* Get the latest style */
+.get-container {
+  
 }
-.flowershop>span {
-    width: 100vh;
-    height: 4867px;
-    background: #FFF;
 
+/* Footer Section style */
+.flowershop {
+  background: #111010;
+  color: white;
+  width: 1922px;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.flowershop-title {
+  font-size: 48px;
+  font-weight: 800;
+  height: 58px;
+  width: 259px
+/* margin: 128px 832px 24px 831px; */
+}
+.flowershop-title > span {
+  color: #e55473;
+ 
 }
 .flowershop-details {
-
+  
 }
-
