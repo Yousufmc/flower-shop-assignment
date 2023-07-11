@@ -11,6 +11,8 @@
   font-size: 20px;
   color: #fff;
   font-weight: 700;
+  padding: 12px 20px;
+  margin: 0px;
 }
 /* Header style. */
 .header {
@@ -68,9 +70,17 @@ height: 420px;
 
 
 /* Instagram Section */
+.instagram {
+  
+}
 .instagram-img {
-  dispaly: flex;
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.insta-img{
+  width: 200px;
+  height: 300px;
 }
 
 /* Get the latest style */
