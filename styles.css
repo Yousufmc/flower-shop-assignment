@@ -20,7 +20,7 @@
   padding: 0px;
 }
 h2 {
-  font-size: 55px;
+  font-size: 50px;
 }
 
 .paragraph-details {
@@ -127,6 +127,9 @@ h2 {
 }
 
 /* Instagram Section */
+.instagram-details {
+  border-top: 40px;
+}
 
 .instagram-img {
   display: flex;
@@ -158,6 +161,40 @@ h2 {
   background-image: url('image/Rectangle\ 9.png');
 }
 
+.input[type="email"] {
+  padding:10px;
+  font-size: 20px;
+}
+
+
+/*  Customer review section */
+.review-container{
+  display: flex;
+  justify-content:space-evenly;
+  margin: 0 150px;
+  gap: 25px;
+  margin-bottom:30px;
+}
+.review-card img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+
+
+
+}
+.review-card {
+padding: 15px 65px;
+letter-spacing: 1px;
+box-shadow: 0 2px 4px rgba(0,0,0,.2);
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+
+
 /* Footer Section style */
 .flowershop {
   background: #111010;
@@ -185,4 +222,8 @@ h2 {
 }
 .flowershop {
   color: white;
+}
+.review-title{
+  text-align: center;
+  margin-bottom: 20px;
 }
