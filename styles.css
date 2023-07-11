@@ -11,49 +11,59 @@
   font-size: 20px;
   color: #fff;
   font-weight: 700;
-  padding: 12px 20px;
-  margin: 0px;
+  
 }
 /* Header style. */
 .header {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #e554731a;
-}
-.header-title {
-  margin: 197px 97px 32px 240px;
-  color: #272727;
-  font-size: 80px;
-  font-weight: 800;
-  width: 708px;
-}
-
-.header-img {
-  width: 635px;
-  height: 800px;
-  margin: 50px 240px 0px 1045px;
 }
 .header-container {
   display: flex;
   flex-direction: column;
   margin: 240px;
+  text-align: left;
 }
-.header-details {
-  color: #27272799;
-  width: 634px;
-  font-size: 18px;
+.header-title {
+  /* margin: 197px 97px 32px 240px; */
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  width: 808px;
 }
 
+.header-img {
+  width: 635px;
+  height: 800px;
+}
+/* margin: 50px 240px 0px 1045px;
+} */
+
+.header-details {
+  color: #27272799;
+  width: 734px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.shop-now {
+  margin-top: 30px;
+  width: 177px;
+  height: 64px;
+  padding: 12px 20px;
+  
+}
 
 /* (Bonous) Our featured flower style */
 .our-container-info {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .our-img {
   width: 464px;
-height: 538px;
+  height: 538px;
 }
 .our-images {
   display: flex;
@@ -62,37 +72,26 @@ height: 538px;
   text-align: center;
 }
 
-
-
 /* <Hot deal style*/
 .deal {
   width: 100%;
-height: 620px;
-border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-display: flex;
-justify-content: center;
-align-items: center;
-
-
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.deal-img{
+.deal-img {
   width: 318px;
-height: 420px;
+  height: 420px;
 }
-
-
-
 
 /* Instagram Section */
 .instagram {
- 
-
-  
 }
 .instagram-details {
   text-align: center;
-
 }
 .instagram-img {
   display: flex;
@@ -101,11 +100,8 @@ height: 420px;
   width: 80%;
   gap: 24px;
   margin-top: 50px;
-
-  
- 
 }
-.insta-img{
+.insta-img {
   width: 342px;
   height: 396px;
 }
@@ -113,22 +109,20 @@ height: 420px;
 /* Get the latest style */
 .get-container {
   width: 80%;
-height: 449px;
-background-image: url('./flower Asset/Rectangle\ 9.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-justify-content: center;
+  height: 449px;
+  background-image: url("./flower Asset/Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin: auto;
   margin-top: 150px;
-  margin-bottom:150px;
-  
+  margin-bottom: 150px;
 }
 .get-info {
-  
 }
 
 /* Footer Section style */
@@ -147,13 +141,11 @@ justify-content: center;
   font-size: 48px;
   font-weight: 800;
   height: 58px;
-  width: 259px
-/* margin: 128px 832px 24px 831px; */
+  width: 259px;
+  /* margin: 128px 832px 24px 831px; */
 }
 .flowershop-title > span {
   color: #e55473;
- 
 }
 .flowershop-details {
-  
 }
